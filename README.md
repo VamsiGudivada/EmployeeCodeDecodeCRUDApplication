@@ -13,7 +13,10 @@ lombok
 Application.properties:
 server.port=8085
 
-spring.datasource.url= jdbc:mysql://localhost:3306/employeecrud spring.datasource.username=root spring.datasource.password=root spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.datasource.url= jdbc:mysql://localhost:3306/employeecrud or using AWS RDS connect directly it to MySQL Workbench with AWS SQL cloud after providing spring.datasource.url= spring.datasource.url = jdbc:mysql://vamsisqldb.cw9qctyhwqsk.us-east-2.rds.amazonaws.com:3306/employeecrud 
+spring.datasource.username=root 
+spring.datasource.password=Vamsi2210 
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 
 spring.jpa.show-sql=true spring.jpa.hibernate.ddl-auto=update spring.jpa.database-platform=org.hibernate.dialect.MySQL5InnoDBDialect
 
