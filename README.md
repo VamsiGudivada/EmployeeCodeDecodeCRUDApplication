@@ -4,6 +4,8 @@ spring-boot-starter-data-jpa
 
 spring-boot-starter-web
 
+centralize logging mechanism using spring aop
+
 mysql-connector-java
 
 lombok
