@@ -1,5 +1,5 @@
 # EmployeeCodeDecodeCRUDApplication
-Dependencies to be added while craeting the project
+Dependencies to be added while creating the project
 spring-boot-starter-data-jpa
 
 spring-boot-starter-web
